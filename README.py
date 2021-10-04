@@ -9,3 +9,9 @@ def artihmetic_arranger(problems, solve=False):
  lines = ""
  solution = ""
  string = ""
+
+ for p in problems:
+    if re.search("[^\s0-9.+-]", p):
+      if re.search("[/]", p) or re.search("[*]", p):
+        return "Error: Operator must be '+' or '-'."
+      return "Error: Numbers must only contain digits."
