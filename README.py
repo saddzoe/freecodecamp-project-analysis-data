@@ -15,3 +15,7 @@ def artihmetic_arranger(problems, solve=False):
       if re.search("[/]", p) or re.search("[*]", p):
         return "Error: Operator must be '+' or '-'."
       return "Error: Numbers must only contain digits."
+ 
+first_num = p.split(" ")[0]
+    operator = p.split(" ")[1]
+    second_num = p.split(" ")[2]
