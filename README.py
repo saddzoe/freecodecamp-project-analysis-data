@@ -16,6 +16,9 @@ def artihmetic_arranger(problems, solve=False):
         return "Error: Operator must be '+' or '-'."
       return "Error: Numbers must only contain digits."
  
-first_num = p.split(" ")[0]
+    first_num = p.split(" ")[0]
     operator = p.split(" ")[1]
     second_num = p.split(" ")[2]
+    
+    if len(first_num) >= 5 or len(second_num) >= 5:
+      return "Error: Numbers cannot be more than four digits."
