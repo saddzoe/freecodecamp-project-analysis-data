@@ -22,3 +22,7 @@ def artihmetic_arranger(problems, solve=False):
     
     if len(first_num) >= 5 or len(second_num) >= 5:
       return "Error: Numbers cannot be more than four digits."
+     
+    sums = ""
+    if operator == "+":
+      sums = str(int(first_num) + int(second_num))
