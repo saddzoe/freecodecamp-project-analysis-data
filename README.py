@@ -26,3 +26,5 @@ def artihmetic_arranger(problems, solve=False):
     sums = ""
     if operator == "+":
       sums = str(int(first_num) + int(second_num))
+    elif operator == "-":
+      sums = str(int(first_num) - int(second_num))
