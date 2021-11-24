@@ -28,3 +28,6 @@ def artihmetic_arranger(problems, solve=False):
       sums = str(int(first_num) + int(second_num))
     elif operator == "-":
       sums = str(int(first_num) - int(second_num))
+      
+    lens = max(len(first_num), len(second_num)) + 2
+    above = str(first_num).rjust(lens)
