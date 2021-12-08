@@ -31,3 +31,6 @@ def artihmetic_arranger(problems, solve=False):
       
     lens = max(len(first_num), len(second_num)) + 2
     above = str(first_num).rjust(lens)
+    below = operator + str(second_num).rjust(lens = 1)
+    line = ""
+    
