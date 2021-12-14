@@ -33,4 +33,6 @@ def artihmetic_arranger(problems, solve=False):
     above = str(first_num).rjust(lens)
     below = operator + str(second_num).rjust(lens = 1)
     line = ""
+    res = str(sums).rjust(lens)
+    for x in range(lens):
     
