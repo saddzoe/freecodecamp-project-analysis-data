@@ -35,4 +35,5 @@ def artihmetic_arranger(problems, solve=False):
     line = ""
     res = str(sums).rjust(lens)
     for x in range(lens):
+      line += "-"
     
