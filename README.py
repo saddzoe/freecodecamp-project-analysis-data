@@ -36,4 +36,7 @@ def artihmetic_arranger(problems, solve=False):
     res = str(sums).rjust(lens)
     for x in range(lens):
       line += "-"
+      
+    if p != problems[-1]:
+      first_number += above + "    "
     
