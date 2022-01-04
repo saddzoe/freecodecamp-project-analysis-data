@@ -42,4 +42,7 @@ def artihmetic_arranger(problems, solve=False):
       second_number += below + "    "
       lines += line + "    "
       solution += res + "    "
+    else:
+      first_number += above
+      second_number += below
     
