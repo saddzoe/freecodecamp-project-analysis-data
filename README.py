@@ -47,4 +47,7 @@ def artihmetic_arranger(problems, solve=False):
       second_number += below
       lines += line
       solution += res
+   
+ if solve:
+   string = first_number + "\n" + second_number + "\n" + lines + "\n" + solution
     
