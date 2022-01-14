@@ -50,4 +50,7 @@ def artihmetic_arranger(problems, solve=False):
    
  if solve:
    string = first_number + "\n" + second_number + "\n" + lines + "\n" + solution
+ else:
+    string = first_number + "\n" + second_number + "\n" + lines
+ return string
     
